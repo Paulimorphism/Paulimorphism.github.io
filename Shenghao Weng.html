@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shenghao Weng - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: #333;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .showcase p {
+            font-size: 20px;
+            color: #fff;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Shenghao Weng</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Website</h1>
+            <p>Explore my educational background, work experience, and skills.</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello, I am Shenghao Weng, a data scientist with a strong background in financial mathematics. I am passionate about leveraging machine learning and predictive analytics to solve complex financial problems.</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <h3>University of Chicago</h3>
+        <p><strong>Master of Science in Data Science</strong> - concentration in Financial Mathematics (09.2022 – 12.2023)</p>
+        <p>Relevant Coursework: Machine Learning and Predictive Analytics, Option Pricing in analytic solution and numerical methods, Time Series Analysis and Forecasting, Advanced Linear Algebra for ML, Statistical Analysis, Data Mining Principles, Big Data Platforms</p>
+        <h3>University of California, San Diego</h3>
+        <p><strong>Bachelor of Science in Math-Computer Science</strong> | Minor Economics (09.2018 – 06.2022)</p>
+        <p>Relevant Coursework: Java, Basic Data Structure & OO Design, Software Tools & Techniques Lab, Data Science in Practice, Supervised Machine Learning Algorithms, Applied Linear Algebra, Introduction to Differential Equations, Statistical Methods (based on R), Numerical Analysis and Approximation, Stochastic Processes, Data Analysis and Inference, Market Imperfections & Policy, Econometrics, Operations Research, Business Analytics.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Research and Working Experience</h2>
+        <h3>T. Rowe Price | Fixed Income and Equity Systematic Research, Project Lab</h3>
+        <p>Academic Advisor: Dacheng Xiu, Booth School of Business (04.2023 – 09.2023, Baltimore, MD)</p>
+        <ul>
+            <li>Identified key macro factors using PCA, and extracted the top 5 influencing macro variables from over 40 macro data sets based on factor loadings</li>
+            <li>Researched macro risk premium in fixed income and equities using explanatory and predictive linear regression and ML model (e.g. LSTM)</li>
+            <li>Assessed the evolving explanatory and predictive power of macro factors, evaluated model efficiency by calculating metrics like R-squared and mean squared error.</li>
+            <li>Generated comprehensive risk reports including Barra factor (USE4 and FI400 model) risk reports, VaR (Value at Risk), and scenario analysis (historical + simulation), developed scenario tool that measures fixed income and equity performance analytics based on macro regimes.</li>
+        </ul>
+
+        <h3>Ernst & Young | European Union Allowance Spot Price and Volatility Projection, Project Lab</h3>
+        <p>(01.2023 – 03.2023, Chicago, IL)</p>
+        <ul>
+            <li>Identified and outlined the main characteristics of main emissions trading schemes currently in use or in development. Developed a multiple linear regression model to forecast the EUA spot price.</li>
+        </ul>
+
+        <h3>Hundsun | Quantitative Research Developer Intern</h3>
+        <p>(06.2021 – 09.2021, Hangzhou, China)</p>
+        <ul>
+            <li>Researched and implemented factor models for equity and fixed income fund-of-fund strategies in the quantitative research team</li>
+            <li>Developed single factor models like dressing and invisible factors, back-tested their performance including monthly rankIC, and measured factor alpha and beta exposures in equity market</li>
+            <li>Applied MySQL and Python to process over 20 complex tags for the development of an algorithm able to verify over 250 public fund tagging factors</li>
+        </ul>
+
+        <h3>JD Finance | Software Engineer Intern</h3>
+        <p>(07.2019 – 09.2019, New York, NY)</p>
+        <ul>
+            <li>Boosted website efficiency using JavaScript and HTML, which served over 1,000,000 clients and tracked website traffic for the marketing team to provide personalized service to clients.</li>
+        </ul>
+
+        <h3>BuzzzNow | Software Engineer Intern</h3>
+        <p>(05.2019 – 07.2019, San Francisco, CA)</p>
+        <ul>
+            <li>Researched on how to improve clickthrough rate by linear regression and implemented a user recommendation system for social software in technology department using Python and Pandas that boosted overall system efficiency by 10%.</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Programming Skills</h2>
+        <ul>
+            <li>Python (NumPy, Pandas, Matplotlib, SciPy, Sklearn, Tensorflow, Keras, PySpark)</li>
+            <li>R (dplyr, ggplot2, forecast)</li>
+            <li>MATLAB</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>C and C++</li>
+            <li>Arduino</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Phone: +1 858 257 9725</p>
+        <p>Email: <a href="mailto:shweng@uchicago.edu">shweng@uchicago.edu</a></p>
+        <p>Address: 333 E Ontario St., Apt3313, Chicago, IL 60611</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shenghao Weng. All rights reserved.</p>
+    </footer>
+</body>
+</html>
